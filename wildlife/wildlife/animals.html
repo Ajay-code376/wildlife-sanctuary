@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>animals</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <style>* {
+            box-sizing: border-box;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 270px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #3d6363;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 10px;
+            max-width: 1400px;
+            margin: 0 auto;
+            gap: 16px;
+        }
+        .gallery::after {
+            content: "";
+            width: 350px;
+        }
+
+        </style>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body><nav>
+        <ul>
+            <li class="home"><a href="Homepage wildlife.html">Home</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li class="dropdown">
+                <a href="animals.html">Animals</a>
+                <ul class="dropdown-menu">
+                    <li><a href="cheetah.html">CHEETAH</a></li>
+                    <li><a href="savannnah elephant.html">ELEPHANT</a></li>
+                    <li><a href="warthog.html">WARTHOG</a></li>
+                    <li><a href="white-bellied bird.html">BIRD</a></li>
+                    <li><a href="bat-eared foxes.html">FOX</a></li>
+                    <li><a href="black backed jackal.html">JACKAL</a></li>
+                    <li><a href="dik-diks.html">DIK-DIKS</a></li>
+                    <li><a href="hyena.html">HYENA</a></li>
+                </ul>
+            </li>
+    </nav>
+
+        <header>
+            <h1>Explore the diverse species in our sanctuary:</h1>
+        </header>
+        <div class="gallery">
+            <img src="white bellied bird.jpeg"><p><a href="white-bellied bird.html">White-bellied bird</a></p>
+            <img src="savannah elephant.jpeg"><p><a href="savannnah elephant.html">savannah elephant</a></p>
+            <img src="black backed jackal.jpeg"><p><a href="black backed jackal.html">black backed jackal</a></p>
+            <img src="hyena.jpeg"><p><a href="hyena.html">hyena</a></p>
+            <img src="warthog.jpeg"><p><a href="warthog.html">warthog</a></p>
+            <img src="dik-diks.jpeg"><p><a href="dik-diks.html">dik-diks</a></p>
+            <img src="cheetah.jpeg"><p><a href="cheetah.html">cheetah</a></p>
+            <img src="bat eared foxes.jpeg"><p><a href="bat-eared foxes.html">bat eared foxes</a></p>
+        </div>
+        <footer>
+            <p>&copy;2025 WILDLIFE TOMORROW<br>tel: 0795202010<br>Email:wildlifetomorrow@gmail.com</p>
+        </footer>
+    </body>
+</html>
